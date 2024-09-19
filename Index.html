@@ -1,11 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Tela de Cadastro</title>
+</head>
+<body class="">
+
+  <div class="wrapper">
+    <form action="">
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="text" placeholder="Usuário" 
+        required>
+        <i class='bx bxs-user' ></i>
+      </div>
+      <div class="input-box"></div>
+        <input type="password" placeholder="Senha" 
+        required>
+        <i class='bx bxs-lock'></i>
+      </div>
+
+      <div class="remember-forgot">
+        <label><input type="checkbox" > Lembrar-me neste Aparelho </label>
+        <a href="#">Esqueceu a senha?</a>
+      </div>
+
+      <button type="submit" class="btn">Cadastrar</button>
+
+      <div class="registrar-link">
+        <p>Não possui uma conta? 
+        <a href="#">Cadastre-se</a></p>
+      </div>
+    </form>
+  </div>
+  
+</body>
 </html>
